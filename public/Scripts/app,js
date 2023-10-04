@@ -1,8 +1,11 @@
-// IIFE -- Immediately Invoked Function Expression
-(function(){
+//app.js
+//João Marques
+//Student No: 301253512
 
-    function Start()
-    {
+// IIFE -- Immediately Invoked Function Expression
+(function () {
+
+    function Start() {
         console.log("App Started...");
     }
 

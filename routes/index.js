@@ -21,6 +21,11 @@ router.get('/projects', function (req, res, next) {
   res.render('projects', { title: 'Projects' });
 });
 
+//index.js
+//João Marques
+//Student No: 301253512
+
+
 /* GET Services page. */
 router.get('/services', function (req, res, next) {
   res.render('services', { title: 'Services' });
