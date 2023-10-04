@@ -2,15 +2,42 @@
 
     <%- include('partials/main_nav.ejs') %>
 
-
-        <!-- Main Content -->
-        <main class="container">
-            <div class="jumbotron">
-                <h1 class="display-4">Welcome to the <%= title %> page</h1>
-
+        <main class="container mt-5 home card p-4">
+            <h1>Projects</h1>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img src="/Assets/projects/tetris.jpg" alt="Project 1" class="img-fluid">
+                </div>
+                <div class="col-md-8">
+                    <h3>Tetris game</h3>
+                    <p><strong>My Role:</strong> Describe your role in this project.</p>
+                    <p><strong>Outcome:</strong> Describe the outcome or results of the project.</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img src="/Assets/projects/smart-home.jpg" alt="Project 1" class="img-fluid">
+                </div>
+                <div class="col-md-8">
+                    <h3>Smart-home</h3>
+                    <p><strong>My Role:</strong> Describe your role in this project.</p>
+                    <p><strong>Outcome:</strong> Describe the outcome or results of the project.</p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img src="/Assets/projects/game.avif" alt="Project 1" class="img-fluid">
+                </div>
+                <div class="col-md-8">
+                    <h3>New game</h3>
+                    <p><strong>My Role:</strong> Describe your role in this project.</p>
+                    <p><strong>Outcome:</strong> Describe the outcome or results of the project.</p>
+                </div>
             </div>
         </main>
 
-        <%- include('partials/bottom_nav.ejs') %>
 
-            <%- include('partials/footer.ejs') %>
+
+
+
+        <%- include('partials/footer.ejs') %>

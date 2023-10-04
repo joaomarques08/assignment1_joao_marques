@@ -1,0 +1,16 @@
+body {
+    background-image: url('/Assets/home-bg.jpg');
+    /* Replace 'your-background.gif' with the path to your GIF */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}

@@ -4,13 +4,24 @@
 
 
         <!-- Main Content -->
-        <main class="container">
-            <div class="jumbotron">
-                <h1 class="display-4">Welcome to the <%= title %> page</h1>
 
+        <main class="container mt-5 home">
+            <div class="card p-4">
+
+                <div class="text-center ">
+                    <h1>About Me</h1>
+                    <img src="/Assets/avatar.webp" alt="Your Name" class="img-fluid rounded-circle"
+                        style="max-width: 200px;">
+                    <p>Hello, I'm Your Name. I'm a passionate professional with a strong dedication to my work. I
+                        specialize
+                        in [your field/area of expertise], and I'm committed to delivering high-quality solutions to my
+                        clients.</p>
+                    <p>If you'd like to learn more about my professional background, you can download my <a
+                            href="/Assets/my-resume.pdf" target="_blank">resume (PDF)</a>.</p>
+                </div>
             </div>
         </main>
 
-        <%- include('partials/bottom_nav.ejs') %>
 
-            <%- include('partials/footer.ejs') %>
+
+        <%- include('partials/footer.ejs') %>
